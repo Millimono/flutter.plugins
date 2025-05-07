@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.tonutilisateur.audiofileplayer' // Ajoute cette ligne
     compileSdkVersion 31
 	
     compileOptions {
